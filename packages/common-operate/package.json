@@ -1,0 +1,32 @@
+{
+  "name": "common-operate",
+  "version": "0.0.1",
+  "description": "lerna package",
+  "keywords": [
+    "operate"
+  ],
+  "author": "lizhixing <lizhixing626@163.com>",
+  "homepage": "http://localhost:8080/",
+  "license": "ISC",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npm.taobao.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lovely602/lerna-repo.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/lovely602/lerna-repo/issues"
+  }
+}
